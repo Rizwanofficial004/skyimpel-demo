@@ -1,0 +1,54 @@
+/* Default width for phone input container */
+.phone-input-container {
+  width: 411px;
+  height: 64px;
+}
+
+.react-tel-input .form-control { 
+  border: 1px solid #8692A6;
+}
+/* Focus styles for phone input */
+.phone-input-container input:focus {
+  border-color: #1565D8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Styling the flag part */
+.phone-input-container .flag-dropdown {
+  border: 1px solid #8692A6; 
+  border-right: none;
+  width: 45px;
+}
+
+/* Styling the flag part on focus */
+.phone-input-container input:focus + .flag-dropdown {
+  border-color: #1565D8;
+}
+
+select {
+  background-image: url('../../public//assets/ChevronDown.svg'); 
+  background-repeat: no-repeat;
+  background-position: right center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 6px;
+}
+select::-ms-expand {
+  display: none;
+}
+
+
+/* Media query for screens up to 768px */
+@media (max-width: 768px) {
+  .phone-input-container {
+    width: 386px;
+  }
+}
+
+/* Media query for screens up to 425px */
+@media (max-width: 425px) {
+  .phone-input-container {
+    width: 300px;
+  }
+}

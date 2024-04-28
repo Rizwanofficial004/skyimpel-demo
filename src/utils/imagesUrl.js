@@ -1,5 +1,6 @@
 export const SideSectionBg = '/assets/SideSectionBg.png'
-export const Frame1 = '/assets/Frame1.png'
+export const Frame1 = '/assets/Frame1.webp'
+export const Frame2 = '/assets/Frame2.webp'
 export const Polygon1 = '/assets/Polygon1.svg'
 export const Polygon2 = '/assets/Polygon2.svg'
 export const Briefcase = '/assets/Briefcase.svg'
@@ -11,5 +12,4 @@ export const CircleCheckFull = '/assets/CircleCheckFull.svg'
 export const GoogleIcon = '/assets/GoogleIcon.svg'
 export const LockIcon = '/assets/LockIcon.svg'
 export const ProfileAvatar = '/assets/ProfileAvatar.png'
-export const Frame2 = '/assets/Frame2.png'
 
